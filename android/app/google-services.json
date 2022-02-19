@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "297591340612",
+    "project_id": "kishaan-f48ff",
+    "storage_bucket": "kishaan-f48ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297591340612:android:f66ace1c8a74c252400611",
+        "android_client_info": {
+          "package_name": "com.example.kishaan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297591340612-59sf04f1b9b92mvplog32jairtjfcmhb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kishaan",
+            "certificate_hash": "277b431d6810bded6def66c7665c459b9494482f"
+          }
+        },
+        {
+          "client_id": "297591340612-sq69cssu51nirodeehicl05u1u07v3q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgFXWulONOP6w3S_oJmvJdO01Pe9gApY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297591340612-sq69cssu51nirodeehicl05u1u07v3q0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

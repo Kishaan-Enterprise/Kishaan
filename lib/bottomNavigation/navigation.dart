@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kishaan/screens/profile.dart';
 import 'package:kishaan/screens/searchScreen.dart';
 import 'package:kishaan/screens/landing.dart';
 
@@ -52,7 +53,12 @@ class MyBottomNavBar extends StatelessWidget {
               size: 35.0,
               color: Colors.white,
             ),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => ProfilePage()),
+              );
+            },
           ),
         ],
       ),

@@ -41,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen> {
                           backgroundColor: Colors.white,
                           radius: 60.0,
                           child: new Image.asset(
-                            'assets/images/tree.jpg',
+                            'assets/images/logo.png',
                             width: 70,
                             height: 90,
                           )),

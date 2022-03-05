@@ -15,6 +15,8 @@ class Landing extends StatelessWidget {
           backgroundColor: Color.fromRGBO(20, 172, 168, 1),
           actions: [
             IconButton(
+                icon: Icon(Icons.notification_add_rounded), onPressed: () {}),
+            IconButton(
                 icon: Icon(Icons.book),
                 onPressed: () {
                   Navigator.push(

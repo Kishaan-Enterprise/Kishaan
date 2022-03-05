@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kishaan/screens/index.dart';
 import 'package:kishaan/screens/profile.dart';
 import 'package:kishaan/screens/searchScreen.dart';
 import 'package:kishaan/screens/landing.dart';
@@ -41,11 +42,16 @@ class MyBottomNavBar extends StatelessWidget {
               }),
           IconButton(
             icon: Icon(
-              Icons.chat_rounded,
+              Icons.live_tv,
               size: 35.0,
               color: Colors.white,
             ),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => IndexPage()),
+              );
+            },
           ),
           IconButton(
             icon: Icon(

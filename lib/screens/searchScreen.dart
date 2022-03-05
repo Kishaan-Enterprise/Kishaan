@@ -80,10 +80,6 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
         title: Text("Search"),
         automaticallyImplyLeading: false,
         backgroundColor: Color.fromRGBO(20, 172, 168, 1),
-        actions: [
-          IconButton(
-              icon: Icon(Icons.logout), onPressed: () => logOut(context)),
-        ],
       ),
       body: isLoading
           ? Center(

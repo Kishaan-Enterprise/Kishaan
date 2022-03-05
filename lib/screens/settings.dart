@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:kishaan/authenticate/methods.dart';
 
 class SettingsPage extends StatefulWidget {
   @override
@@ -97,8 +98,8 @@ class _SettingsPageState extends State<SettingsPage> {
                 padding: EdgeInsets.symmetric(horizontal: 40),
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20)),
-                onPressed: () {},
-                child: Text("SIGN OUT",
+                onPressed: () => logOut(context),
+                child: Text("Logout",
                     style: TextStyle(
                         fontSize: 16, letterSpacing: 2.2, color: Colors.black)),
               ),

@@ -16,7 +16,7 @@ class MyBottomNavBar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           IconButton(
-            icon: Icon(
+            icon: Icon( 
               Icons.explore,
               size: 35.0,
               color: Colors.white,
@@ -71,3 +71,5 @@ class MyBottomNavBar extends StatelessWidget {
     );
   }
 }
+
+

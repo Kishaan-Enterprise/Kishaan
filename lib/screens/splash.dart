@@ -42,8 +42,8 @@ class _SplashScreenState extends State<SplashScreen> {
                           radius: 60.0,
                           child: new Image.asset(
                             'assets/images/logo.png',
-                            width: 70,
-                            height: 90,
+                            width: 80,
+                            height: 80,
                           )),
                       Padding(
                         padding: EdgeInsets.only(top: 10.0),

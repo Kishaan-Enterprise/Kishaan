@@ -58,7 +58,7 @@ class _SettingsPageState extends State<SettingsPage> {
               height: 10,
             ),
             buildAccountOptionRow(context, "Change password"),
-            buildAccountOptionRow(context, "Content settings"),
+            buildAccountOptionRow(context, "Became an expert"),
             buildAccountOptionRow(context, "Language"),
             buildAccountOptionRow(context, "Privacy policy"),
             buildAccountOptionRow(context, "Help center"),

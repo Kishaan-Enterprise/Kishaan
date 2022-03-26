@@ -12,6 +12,7 @@ class _CreateAccountState extends State<CreateAccount> {
   final TextEditingController _email = TextEditingController();
   final TextEditingController _password = TextEditingController();
   bool isLoading = false;
+  bool obsecure = true;
 
   @override
   Widget build(BuildContext context) {
@@ -36,24 +37,18 @@ class _CreateAccountState extends State<CreateAccount> {
                     height: size.height / 50,
                   ),
                   Container(
-                    width: size.width / 1.1,
-                    child: Text(
-                      "Welcome",
-                      style: TextStyle(
-                        fontSize: 34,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
-                  Container(
-                    width: size.width / 1.1,
-                    child: Text(
-                      "Create Account to Continue!",
-                      style: TextStyle(
-                        color: Colors.grey[700],
-                        fontSize: 20,
-                        fontWeight: FontWeight.w500,
-                      ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        CircleAvatar(
+                            backgroundColor: Colors.white,
+                            radius: 50.0,
+                            child: new Image.asset(
+                              'assets/images/logo.png',
+                              width: 85,
+                              height: 85,
+                            )),
+                      ],
                     ),
                   ),
                   SizedBox(

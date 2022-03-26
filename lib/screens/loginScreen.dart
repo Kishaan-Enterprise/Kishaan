@@ -1,4 +1,4 @@
-import 'package:kishaan/authenticate/createAccount.dart';
+import 'package:kishaan/screens/createAccount.dart';
 import 'package:kishaan/authenticate/methods.dart';
 import 'package:flutter/material.dart';
 import 'package:kishaan/screens/landing.dart';
@@ -36,24 +36,18 @@ class _LoginScreenState extends State<LoginScreen> {
                     height: size.height / 50,
                   ),
                   Container(
-                    width: size.width / 1.1,
-                    child: Text(
-                      "Welcome",
-                      style: TextStyle(
-                        fontSize: 34,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
-                  Container(
-                    width: size.width / 1.1,
-                    child: Text(
-                      "Sign In to Contiue!",
-                      style: TextStyle(
-                        color: Colors.grey[700],
-                        fontSize: 25,
-                        fontWeight: FontWeight.w500,
-                      ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        CircleAvatar(
+                            backgroundColor: Colors.white,
+                            radius: 50.0,
+                            child: new Image.asset(
+                              'assets/images/logo.png',
+                              width: 85,
+                              height: 85,
+                            )),
+                      ],
                     ),
                   ),
                   SizedBox(
@@ -76,6 +70,15 @@ class _LoginScreenState extends State<LoginScreen> {
                     height: size.height / 10,
                   ),
                   customButton(size),
+                  SizedBox(
+                    height: size.height / 40,
+                  ),
+                  Container(
+                      width: size.width,
+                      child: Text('Forget password?',
+                          style: TextStyle(
+                              color: Color.fromRGBO(20, 172, 168, 1))),
+                      padding: EdgeInsets.fromLTRB(220, 10, 10, 0)),
                   SizedBox(
                     height: size.height / 40,
                   ),

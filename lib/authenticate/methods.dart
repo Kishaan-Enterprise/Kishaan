@@ -1,4 +1,4 @@
-import 'package:kishaan/authenticate/loginScreen.dart';
+import 'package:kishaan/screens/loginScreen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
